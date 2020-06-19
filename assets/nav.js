@@ -20,7 +20,7 @@ if (pixels <= 200){
    $('.logo').css('width', logowidth - pixels/8)
    $('.logo').css('height', logoheight - pixels/8)
    $('.bar').css('opacity',  pixels/400)
-   $('.section-logo').css('top', 4 + 'vh' )
+   $('.section-logo').css('top', 2.5 + 'vw' )
 }
 else
 {
