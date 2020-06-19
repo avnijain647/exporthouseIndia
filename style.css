@@ -178,13 +178,14 @@ align-items: center;
   transform: translate(-50%,-50%);
   /* background-color: blue; */
   width:95%;
-  height:95%;
+  height:100%;
 }
 .section2{
   width:100%;
   height:400vh;
   position: relative;
   background-color: #f3ebdd;
+    /* background-color: blue; */
 }
 
 .title{
@@ -192,6 +193,7 @@ align-items: center;
   position: sticky;
   top: 10vh;
 width: 95%;
+/* padding-top:2.5%; */
 padding-left: 2.5%;
 padding-right: 2.5%;
 /* margin-right: auto; */
@@ -243,7 +245,7 @@ align-items: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   /* background-color: red; */
 }
 
@@ -378,7 +380,7 @@ background-repeat: no-repeat;
 .rect1-4grid{
   /* background-color: white; */
   width:48%;
-  height:49%;
+  height:48%;
 }
 .craft-image1{
   width:100%;
