@@ -1,0 +1,34 @@
+/* styles for magnifier image pairs */
+
+/* style for the DIV that holds the image pair */
+.magnifier {
+    /* width:100%; */
+  background: red;
+  overflow: hidden;
+  position: relative;
+}
+
+/* style for the DIV that is the magnifier lens */
+.maglens {
+  background: yellow;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+/* style for the small IMG that appears on the page */
+/* .magsmall {
+    background: green;
+  position: absolute;
+  border-style: none
+} */
+
+/* style for the magnified image, using a clip rectangle */
+.maglarge {
+    background: blue;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-style: none
+}
