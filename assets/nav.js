@@ -21,13 +21,15 @@ if (pixels <= 200){
    $('.logo').css('height', logoheight - pixels/8)
    $('.bar').css('opacity',  pixels/400)
    $('.section-logo').css('top', 2.5 + 'vw' )
+   $('.logo-condensed').css('opacity', pixels/400)
 }
 else
 {
   $('.bar').css('opacity',  1)
 $('.logo').css('width', logowidth2 )
    $('.logo').css('height', logoheight2 )
-    $('.section-logo').css('top', 1.5 + 'vh' )
+    $('.section-logo').css('top', 2 + 'vh' )
+    $('.logo-condensed').css('opacity', 1)
 }
 // console.log(logowidth2)
 console.log(documentHeight)
