@@ -35,3 +35,14 @@ $('.logo').css('width', logowidth2 )
 console.log(documentHeight)
 
 })
+
+$('.menumobile').on('click', function() {
+$('.menusplash').addClass('show' )
+$('.menuclose').addClass('show' )
+})
+
+
+$('.menuclose').on('click', function() {
+$('.menusplash').removeClass('show' )
+$('.menuclose').removeClass('show' )
+})
