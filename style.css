@@ -6,6 +6,7 @@ a{
   text-decoration: none;
 }
 body{
+    background-color: #f3ebdd;
   color: #534741;
   margin:0;
 }
@@ -39,7 +40,6 @@ width:20vh;
 }
 
 .logo{
-  /* background-color: green; */
 position: absolute;
 top: 0;
   width: 100%;
@@ -158,19 +158,22 @@ align-items: center;
 }
 .credits{
     position: relative;
-  padding: 0px 0 40px 0;
+  padding: 0px 0 0px 0;
   /* position: sticky;
-  top:10vh; */
-  background-color: #f3ebdd;
+  top:20vh; */
+  /* background-color: #f3ebdd; */
+  /* background-color: red; */
   width:100%;
 
 }
 .credit{
+
   background-color: #f3ebdd;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  /* background-color: red; */
 }
 .credit1{
   background-color: #f3ebdd;
@@ -217,7 +220,7 @@ background-color: #f3ebdd;
 /* background-color:white; */
 display: flex;
 flex-wrap: nowrap;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
 }
 .name{
@@ -227,6 +230,10 @@ align-items: center;
   font-style: italic;
   font-family: 'Crimson Pro', serif;
   font-size: calc(24px + 8 * ((100vw - 320px) / 1280));
+}
+.header{
+  position: absolute;
+  top:50vh;
 }
 .cta{
   /* background: blue; */
@@ -275,7 +282,7 @@ align-items: center;
   align-items: center;
 }
 .box1-1{
-background-image: url(deer2.jpg);
+background-image: url(PURI7224.jpg);
   background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -284,7 +291,7 @@ background-repeat: no-repeat;
   height:100%;
 }
 .box1-2{
-  background-image: url(bulldog.jpg);
+  background-image: url(PURI7341.jpg);
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -293,7 +300,7 @@ background-repeat: no-repeat;
   height:100%;
 }
 .box1-3{
-  background-image: url(bottlestopper.jpg);
+  background-image: url(PURI7395.jpg);
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -311,7 +318,7 @@ background-repeat: no-repeat;
   height:100%;
 }
 .rect1{
-  background-image: url(hero-1.jpg);
+  background-image: url(PURI7294.jpg);
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -320,7 +327,7 @@ background-repeat: no-repeat;
 }
 
 .rect2{
-  background-image: url(radio_full.jpg);
+  background-image: url(PURI7273.jpg);
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -328,7 +335,7 @@ background-repeat: no-repeat;
   height:50%;
 }
 .rect3{
-  background-image: url(hero-1.jpg);
+  background-image: url(PURI7286.jpg);
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -336,7 +343,7 @@ background-repeat: no-repeat;
   height:50%;
 }
 .rect4{
-  background-image: url(radio_full.jpg);
+  background-image: url(PURI7302.jpg);
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -344,7 +351,7 @@ background-repeat: no-repeat;
   height:50%;
 }
 .rect5{
-  background-image: url(hero-1.jpg);
+  background-image: url(PURI7363.jpg);
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -352,7 +359,7 @@ background-repeat: no-repeat;
   height:50%;
 }
 .rect6{
-  background-image: url(radio_full.jpg);
+  background-image: url(PURI7384.jpg);
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
