@@ -22,6 +22,8 @@ if (pixels <= 200){
    $('.bar').css('opacity',  pixels/400)
    $('.section-logo').css('top', 2.5 + 'vw' )
    $('.logo-condensed').css('opacity', pixels/400)
+   $('.menunav').css('color',  '#fff')
+   // $('.menunav').css('border-bottom',  '#ffffff')
 }
 else
 {
@@ -30,6 +32,8 @@ $('.logo').css('width', logowidth2 )
    $('.logo').css('height', logoheight2 )
     $('.section-logo').css('top', 2 + 'vh' )
     $('.logo-condensed').css('opacity', 1)
+      $('.menunav').css('color',  '#534741')
+      // $('.menunav').css('border-bottom',  '#534741')
 }
 // console.log(logowidth2)
 console.log(documentHeight)

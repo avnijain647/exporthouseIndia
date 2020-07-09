@@ -1,4 +1,4 @@
-/* font-family: 'Chivo', sans-serif;
+ /* font-family: 'Chivo', sans-serif;
 font-family: 'Crimson Pro', serif; */
 a{
   cursor: pointer;
@@ -235,7 +235,8 @@ align-items: center;
   position: absolute;
   top:50vh;
 }
-.cta{
+.cta,
+.cta-hover{
   /* background: blue; */
   /* padding-left: 20px; */
   font-weight: 400;
@@ -246,12 +247,17 @@ align-items: center;
   font-family: 'Chivo', sans-serif;
   font-size: calc(12px + 4 * ((100vw - 320px) / 1280));
 }
+.cta-hover img{
+  padding-left: 12px;
+  width:25px;
+}
 .cta-words{
   /* background: red;
    */
   /* border-bottom: .4rem solid #534741; */
 }
-.cta img{
+.cta img,
+.cta-hover img{
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -275,7 +281,7 @@ align-items: center;
   cursor: pointer;
   width:100%;
   height:33.33%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -283,7 +289,7 @@ align-items: center;
 }
 .box1-1{
 background-image: url(PURI7224.jpg);
-  background-position: center;
+  background-position: bottom;
 background-size: cover;
 background-repeat: no-repeat;
   /* background-color: blue; */
@@ -319,7 +325,7 @@ background-repeat: no-repeat;
 }
 .rect1{
   background-image: url(PURI7294.jpg);
-    background-position: center;
+    background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   width:100%;
@@ -328,7 +334,7 @@ background-repeat: no-repeat;
 
 .rect2{
   background-image: url(PURI7273.jpg);
-    background-position: center;
+    background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   width:100%;
@@ -336,7 +342,7 @@ background-repeat: no-repeat;
 }
 .rect3{
   background-image: url(PURI7286.jpg);
-    background-position: center;
+    background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   width:100%;
@@ -344,7 +350,7 @@ background-repeat: no-repeat;
 }
 .rect4{
   background-image: url(PURI7302.jpg);
-    background-position: center;
+    background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   width:100%;
@@ -352,7 +358,7 @@ background-repeat: no-repeat;
 }
 .rect5{
   background-image: url(PURI7363.jpg);
-    background-position: center;
+    background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   width:100%;
@@ -360,42 +366,16 @@ background-repeat: no-repeat;
 }
 .rect6{
   background-image: url(PURI7384.jpg);
-    background-position: center;
+    background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   width:100%;
   height:50%;
 }
 
-.rect1-2column{
-  cursor: pointer;
-  background-color: pink;
-width:50%;
-height: 100%;
-}
-.rect2-2column{
-    cursor: pointer;
-  background-color: pink;
-width:50%;
-height: 100%;
-}
-
-.rect1-2column{
-  background-position: center;
-background-image: url(image1column.png);
-background-size: cover;
-background-repeat: no-repeat;
-}
-.rect2-2column{
-  background-position: center;
-background-image: url(image2column.png);
-background-size: cover;
-background-repeat: no-repeat;
-}
-
 .section3{
   width:100%;
-  height:150vh;
+  height:125vh;
   position: relative;
   background-color: #f3ebdd;
   /* position: sticky;
@@ -403,68 +383,108 @@ background-repeat: no-repeat;
   top:0px; */
 }
 .rect1-4grid{
+  position: relative;
   /* background-color: white; */
   width:50%;
-  height:48%;
+  height:50%;
 }
 .craft-image1{
   width:100%;
-  height:90%;
+  height:100%;
   background-position: center;
-  background-image: url(crafts.jpg);
+  background-image: url(welding.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .craft-image2{
   width:100%;
-  height:90%;
+  height:100%;
   background-position: center;
-  background-image: url(crafts.jpg);
+  background-image: url(polishing.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .craft-image3{
   width:100%;
-  height:90%;
+  height:100%;
   background-position: center;
-  background-image: url(crafts.jpg);
+  background-image: url(finishing);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .craft-image4{
   width:100%;
-  height:90%;
+  height:100%;
   background-position: center;
-  background-image: url(crafts.jpg);
+  background-image: url(casting.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .craft-title{
+  color:#fff;
   font-family: 'Crimson Pro', serif;
   font-size: calc(18px + 3 * ((100vw - 320px) / 1280));
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  width:100%;
-  height:10%;
+  position: absolute;
+  left:2.5vw;
+  bottom:2.5vw;
 }
 .section4{
   width:100%;
-  height:100vh;
+  height:125vh;
   position: relative;
   background-color: #f3ebdd;
-  /* position: sticky;
-  left:0;
-  top:0px; */
+}
+.rect1-facility{
+  cursor: pointer;
+  background-color: pink;
+width:100%;
+height: 60%;
+}
+.rect2-facility{
+    cursor: pointer;
+  background-color: pink;
+width:50%;
+height: 40%;
+}
+.rect3-facility{
+    cursor: pointer;
+  background-color: pink;
+width:50%;
+height: 40%;
 }
 
+.rect1-facility{
+  background-position: center;
+background-image: url(IMG_3947.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.rect2-facility{
+  background-position: center;
+background-image: url(IMG_3906.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.rect3-facility{
+  background-position: center;
+background-image: url(IMG_3956.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
 .section5{
   /* z-index: 11; */
   position:relative;
   width:100%;
-  height: 80vh;
+  height: 75vh;
   background-color: #f3ebdd;
+}
+
+.flex{
+  align-items:  flex-end;
 }
 .rect1-2row{
   font-family: 'Crimson Pro', serif;
@@ -476,7 +496,10 @@ font-size: calc(18px + 3 * ((100vw - 320px) / 1280));
 .rect2-2row{
   width:66%;
   height:100%;
-  background-color: pink;
+  background-position: bottom;
+background-image: url(IMG_3969.png);
+background-size: cover;
+background-repeat: no-repeat;
 }
 .contact{
     position:relative;
@@ -484,8 +507,8 @@ font-size: calc(18px + 3 * ((100vw - 320px) / 1280));
     /* height:40vh; */
   background-color: yellow;
   display: flex;
-  flex-wrap: nowrap;
-    background-color: #534741;
+  flex-wrap: wrap;
+    background-color: #444444;
     /* background-color: blue; */
   justify-content:flex-start;
   align-items: flex-start;
@@ -495,12 +518,12 @@ font-size: calc(18px + 3 * ((100vw - 320px) / 1280));
   font-family: 'Crimson Pro', serif;
   font-size: calc(12px + 4 * ((100vw - 320px) / 1280));
   color: #f3ebdd;
-  background-color: #534741;
+  /* background-color: #534741; */
   /* background-color: red; */
   padding: 30px 0 30px 0;
   padding-left: 2.5vw;
   /* background-color: red; */
-  width:20%;
+  width:17.5%;
 }
 .contact-title{
 
@@ -523,7 +546,7 @@ footer{
   font-size: calc(12px + 4 * ((100vw - 320px) / 1280));
   color: #f3ebdd;
   height: 10vh;
-  background-color: #534741;
+  background-color: #444444;
 }
 .menuclose,
 .menusplash{
@@ -550,6 +573,9 @@ footer{
       height: 10vh;
   }
   .menuclose{
+    color:#f3ebdd;
+    font-family: 'Chivo', sans-serif;
+    font-size: calc(18px + 4 * ((100vw - 320px) / 1280));
     cursor: pointer;
     display: none;
     flex-wrap: nowrap;
@@ -562,6 +588,7 @@ footer{
       height: 10vh;
   }
 .menunav{
+color: #fff;
   cursor: pointer;
   font-family: 'Chivo', sans-serif;
   font-size: calc(12px + 4 * ((100vw - 320px) / 1280));
@@ -571,7 +598,7 @@ footer{
   width:100vw;
   height:100vh;
   position: fixed;
-  background-color: white;
+  background-color: #444444;
   z-index:100;
   /* opacity: .8; */
   top:0;
@@ -583,14 +610,18 @@ footer{
   display: flex;
 }
 .nav2{
+
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Chivo', sans-serif;
-  font-size: calc(12px + 4 * ((100vw - 320px) / 1280));
+  font-size: calc(18px + 4 * ((100vw - 320px) / 1280));
   text-align: center;
   width:50%;
   height:50%;
+}
+.nav2 a{
+      color:#f3ebdd;
 }
   .section-content{
         z-index:2;
@@ -603,45 +634,101 @@ footer{
 .section2{
   height:240vh;
 }
-/* .box1-1,
-.box1-2,
-.box1-3{
-  width:100%;
-  height:50%;
-}
-.box2{
-  width:100%;
-  height:50%;
-}
-.rect1,
-.rect2,
-.rect3,
-.rect4,
-.rect5,
-.rect6{
-  width:50%;
-  height:100%;
-} */
+
 .section3{
   height:100vh;
 }
 .rect1-4grid{
   /* background-color: white; */
-  width:49%;
-  height:48%;
+  width:50%;
+  height:50%;
 }
 .rect1-2column,
 .rect2-2column{
-  width:49%;
+  width:50%;
   height: 100%;
 }
-.rect1-2row,
-.rect2-2row{
+.rect1-2row{
+    width:100%;
 font-size: calc(18px + 3 * ((100vw - 320px) / 1280));
-
 }
+.rect2-2row{
+  width:100%;
+  height:75vh;
+  background-color: pink;
+}
+.contact1{
+  /* background-color: red; */
+  width:30%;
+}
+
 }
 @media(max-width:420px){
+  .section1{
+    height:70vh;
+  }
+  .credit1{
+    width:100%;
+  }
+  .credit1 img{
+    width:30%;
+  }
 
+  .section2{
+    height:480vh;
+  }
 
+  .box1-1,
+  .box1-2,
+  .box1-3{
+    width:100%;
+    height:50%;
+  }
+  .box2{
+    width:100%;
+    height:50%;
+  }
+  .rect1,
+  .rect2,
+  .rect3,
+  .rect4,
+  .rect5,
+  .rect6{
+    width:100%;
+    height:50%;
+  }
+
+  .section3{
+    height:60vh;
+  }
+  .rect1-4grid{
+    /* background-color: white; */
+    width:50%;
+    height:50%;
+  }
+  .contact1{
+    width:47.5%;
+  }
+  .rect1-2row{
+    width:100%;
+  }
+  .rect2-2row{
+    width:100%;
+    height:60vh;
+    background-color: pink;
+  }
+  .section4{
+    height: 70vh;
+  }
+  .rect2-facility{
+  /* height: 30%; */
+  }
+  .rect3-facility{
+  /* height: 30%; */
+  }
+.nav2{
+
+  width:100%;
+  height:25%;
+}
 }
