@@ -21,8 +21,9 @@ if (pixels <= 200){
    $('.logo').css('height', logoheight - pixels/8)
    $('.bar').css('opacity',  pixels/400)
    $('.section-logo').css('top', 2.5 + 'vw' )
+
    $('.logo-condensed').css('opacity', pixels/400)
-   $('.menunav').css('color',  '#fff')
+   // $('.menunav').css('color',  '#fff')
    // $('.menunav').css('border-bottom',  '#ffffff')
 }
 else
@@ -30,9 +31,10 @@ else
   $('.bar').css('opacity',  1)
 $('.logo').css('width', logowidth2 )
    $('.logo').css('height', logoheight2 )
-    $('.section-logo').css('top', 2 + 'vh' )
+       $('.section-logo').css('top', 2 + 'vh' )
+
     $('.logo-condensed').css('opacity', 1)
-      $('.menunav').css('color',  '#534741')
+      // $('.menunav').css('color',  '#534741')
       // $('.menunav').css('border-bottom',  '#534741')
 }
 // console.log(logowidth2)
@@ -49,4 +51,18 @@ $('.menuclose').addClass('show' )
 $('.menuclose').on('click', function() {
 $('.menusplash').removeClass('show' )
 $('.menuclose').removeClass('show' )
+})
+
+
+$('.filters-list a').on('click', function() {
+  var filter = $(this).attr('data-filter')
+  console.log(filter)
+  $('.all').hide()
+  $(filter).show()
+    $('.filters-list a').removeClass('category1')
+  $(this).addClass('category1')
+  // var boxsize = $(this).attr('data-size')
+  // $(filter).removeClass('small large')
+  // $(filter).addClass(boxsize)
+  return true
 })
