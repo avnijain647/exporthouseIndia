@@ -143,7 +143,7 @@ align-items: center;
   background-position: bottom;
  background-size: cover;
  background-repeat: no-repeat;
-  background-image: url(hero.png);
+  background-image: url(hero.jpg);
   /* position: absolute;
   top:0;
   left:0; */
@@ -288,7 +288,7 @@ align-items: center;
   align-items: center;
 }
 .box1-1{
-background-image: url(PURI7224.png);
+background-image: url(PURI7224.jpg);
   background-position: bottom;
 background-size: cover;
 background-repeat: no-repeat;
@@ -297,7 +297,7 @@ background-repeat: no-repeat;
   height:100%;
 }
 .box1-2{
-  background-image: url(PURI7341.png);
+  background-image: url(PURI7341.jpg);
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -306,7 +306,7 @@ background-repeat: no-repeat;
   height:100%;
 }
 .box1-3{
-  background-image: url(PURI7395.png);
+  background-image: url(PURI7395.jpg);
     background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -324,7 +324,7 @@ background-repeat: no-repeat;
   height:100%;
 }
 .rect1{
-  background-image: url(PURI7294.png);
+  background-image: url(PURI7294.jpg);
     background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -333,7 +333,7 @@ background-repeat: no-repeat;
 }
 
 .rect2{
-  background-image: url(PURI7273.png);
+  background-image: url(PURI7273.jpg);
     background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -341,7 +341,7 @@ background-repeat: no-repeat;
   height:35%;
 }
 .rect3{
-  background-image: url(PURI7286.png);
+  background-image: url(PURI7286.jpg);
     background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -349,7 +349,7 @@ background-repeat: no-repeat;
   height:35%;
 }
 .rect4{
-  background-image: url(PURI7283.png);
+  background-image: url(PURI7283.jpg);
     background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -357,7 +357,7 @@ background-repeat: no-repeat;
   height:35%;
 }
 .rect5{
-  background-image: url(PURI7363.png);
+  background-image: url(PURI7363.jpg);
     background-position: bottom right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -365,7 +365,7 @@ background-repeat: no-repeat;
   height:35%;
 }
 .rect6{
-  background-image: url(PURI7384.png);
+  background-image: url(PURI7384.jpg);
     background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -398,7 +398,7 @@ background-repeat: no-repeat;
   width:100%;
   height:100%;
   background-position: center;
-  background-image: url(welding.png);
+  background-image: url(welding.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -406,7 +406,7 @@ background-repeat: no-repeat;
   width:100%;
   height:100%;
   background-position: center;
-  background-image: url(polishing.png);
+  background-image: url(polishing.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -414,7 +414,7 @@ background-repeat: no-repeat;
   width:100%;
   height:100%;
   background-position: center;
-  background-image: url(finishing.png);
+  background-image: url(finishing.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -422,7 +422,7 @@ background-repeat: no-repeat;
   width:100%;
   height:100%;
   background-position: center;
-  background-image: url(casting.png);
+  background-image: url(casting.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -465,19 +465,19 @@ height:30%;
 
 .rect1-facility{
   background-position: center;
-background-image: url(IMG_3947.png);
+background-image: url(IMG_3947.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 }
 .rect2-facility{
   background-position: center;
-background-image: url(IMG_3906.png);
+background-image: url(IMG_3906.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 }
 .rect3-facility{
   background-position: center;
-background-image: url(IMG_3956.png);
+background-image: url(IMG_3956.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -506,14 +506,14 @@ font-size: calc(18px + 3 * ((100vw - 320px) / 1280));
 }
 .rect3-2row{
     background-position: bottom ;
-  background-image: url(IMG_3888.png);
+  background-image: url(IMG_3888.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .rect4-2row{
     background-position: bottom ;
-  background-image: url(IMG_3905.png);
+  background-image: url(IMG_3905.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -521,7 +521,7 @@ font-size: calc(18px + 3 * ((100vw - 320px) / 1280));
   width:66%;
   height:100%;
   background-position: bottom ;
-background-image: url(IMG_3969.png);
+background-image: url(IMG_3969.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -535,21 +535,21 @@ background-repeat: no-repeat;
 
 .rect2-1facility{
   background-position: bottom ;
-background-image: url(IMG_3880.png);
+background-image: url(IMG_3880.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 }
 
 .rect2-2facility{
   background-position: bottom ;
-background-image: url(IMG_3939.png);
+background-image: url(IMG_3939.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 }
 
 .rect2-3facility{
   background-position: bottom ;
-background-image: url(IMG_3952.png);
+background-image: url(IMG_3952.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 }
