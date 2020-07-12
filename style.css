@@ -626,6 +626,10 @@ position: relative;
 width:640px;
  height:360px;
 }
+
+.email{
+  color:#f3ebdd;
+}
 @media(max-width:800px){
 
   .menudesktop{
